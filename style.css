@@ -1,0 +1,149 @@
+*{
+    background-color: lavender;
+}
+.nav{
+    display: flex;
+    height: 100px;
+    width: 1900px;
+    padding-left: 10px;
+    
+    position: sticky;
+    
+}
+.nav ul{
+  margin-left: 8rem;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 25px 10px 25px 10px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    opacity: 0.8;
+}
+.nav ul li:hover{
+    opacity: 1;
+    font-size: 32px;
+    font-weight: bolder;
+    transition-delay: 0.2s;
+}
+.nav img{
+    padding-left: 100px;
+}
+.nav2 p{
+    display: inline-block;
+    font-family:monospace;
+    font-weight: 700;
+}
+.nav2{
+    display: inline-block;
+    height: 6rem;
+    width: 1800px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.nav2 img{
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+article{
+    margin: 0 25rem 0px 25rem;
+}
+article h2{
+    font-size: 50px;
+    font-family: monospace;
+}
+article img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    margin-left: 100px;
+}
+.bestsell{
+    display: flex;
+    margin-top: 50px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+}
+.cardimg{
+    height: 300px;
+    width: 250px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+}
+.item1{
+    background-image: url(./item1.jpg);
+}
+.item2{
+    background-image: url(./item2.webp);
+}
+.item3{
+    background-image: url(./item3.avif);
+}
+.item4{
+    background-image: url(./item4.jpg);
+}
+.item5{
+    background-image: url(./item5.png);
+}
+.item6{
+    background-image: url(./item6.webp);
+}
+.seperate{
+    margin-top: 100px;
+}
+.item7{
+    background-image: url(./item7.webp);
+}
+.item8{
+    background-image: url(./item8.webp);
+}
+.bannertxt{
+    padding-left: 300px;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 20px;
+    padding-bottom: 100px;
+}
+section a:hover{
+    color: crimson;
+    font-size: 25px;
+    transition: 0.1s ease 0.1s;
+}
+section img:hover{
+    box-shadow: 10px brown;
+}
+footer{
+    padding-top: 300px;
+    padding-left: 100px;
+    display: flex;
+}
+.links{
+    padding:50px 100px 0 100px;
+}
+footer a {
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    opacity: 0.6;
+}
+footer a:hover{
+    opacity: 1;
+}
